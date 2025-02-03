@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Polygon</title>
+  <style>
+    .polygon {
+      width: 200px;
+      height: 200px;
+      background: lightblue;
+      clip-path: polygon(
+        50% 0%,       /* Top center */
+        90% 25%,      /* Top-right corner */
+        75% 90%,      /* Bottom-right corner */
+        25% 90%,      /* Bottom-left corner */
+        10% 25%       /* Top-left corner */
+      );
+    }
+  </style>
+</head>
+<body>
+  <div class="polygon"></div> 
+  <!-- you can generate random shape from clippy website -->
+</body>
+</html>

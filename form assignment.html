@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        h1{text-align: center;}
+        .div1{text-align: center;}
+        .div2{margin-left: 255px;}
+
+        .disagree:checked~input[type="submit"] {
+            cursor: not-allowed;
+        }
+    
+    </style>
+</head>
+<body style="background-color:cadetblue;">
+    <h1>HTML Forms</h1>
+    <form action="https://www.youtube.com" method="post">
+    <div class="div1">
+    <label for="fname">First name:</label>
+    <input type="text" name="first_name" id="fname" size="12" maxlength="20" />
+    </div>
+
+    <div class="div2">
+    <label for="fname">Password:</label>
+    <input type="password" name="pass" size="20" />
+
+    <input type="radio" name="subject" vale="maths"> Maths
+    <input type="radio" name="subject" vale="physics"> Physics
+
+    <select name="sub">
+        <option vale="Maths" selected>Maths</option>
+        <option vale="Myanmar">Myanmar</option>
+        <option vale="English">English</option>
+        <option vale="Physics">Physics</option>
+        <option vale="Chemistry">Chemistry</option>
+    </select>
+
+    <input type= "file" name="fileupload" accept="image/*" />
+    <input type="submit" name="submit" value="Submit" />
+    <input type="reset" name="reset" value="Reset" />
+    <input type="button" name="ok" value="Ok" />
+    <input type="image" naem="imagebutton" src="images\favicon2.png" />
+    </div>
+    </form>
+    
+</body>
+</html>
