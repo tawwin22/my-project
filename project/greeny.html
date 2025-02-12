@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeny</title>
+
+    <!-- social icons -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    overflow-x:hidden;
+}
+
+/* navigation bar */
+.navbar {
+          position: fixed;  /* Sticks to the top */
+          top: 0px;
+          width: 100%;
+          background: rgba(30, 139, 54, 0.3); /* Transparent */
+          backdrop-filter: blur(10px); /* Adds a blur effect */
+          padding: 30px 30px;
+          display: flex;
+        }
+
+
+
+.navbar a {
+            text-decoration: none;
+            color: rgb(31, 27, 27);
+            font-size: 18px;
+            margin:0 15px;
+            transition: color 0.3s;
+          }
+
+.navbar a:hover{color: white;}
+
+/* header */
+header{
+        margin-top:80px;
+        width: 100%;
+        height: 400px;
+        background-image: url("https://i.pinimg.com/736x/b7/62/b0/b762b04d7b32e5b3ac7bc47de9f6089f.jpg");
+        background-color: #a5ba50;
+        background-repeat: no-repeat; 
+      }
+
+header img{border-radius: 10px;}
+
+/* header က ပုံသေးနှစ်ခု အပေါ်အောက်ပေါ်ဖို့အတွက် */
+.gridphoto{display:grid;
+           float:right;
+          }
+
+/* logoအောက်ကစာ */
+.content{float:left;
+         margin-left:50px;
+         font-family:cursive;
+         color: white;
+        }
+
+/* အောက်ကအကွက်ထဲကပုံတွေအတွက် */
+.category-item {
+                 display: inline-block;
+                 margin:20px;
+                 margin-left:25px;
+                 background: white;
+                 padding: 10px;
+                 border-radius: 20px;
+                 box-shadow: 0px 0px 20px 0px #ccc;
+                 transition: transform 0.3s ease-in-out;
+                 text-align: center;
+               }
+
+.category-item img{
+                    width: 200px;
+                    border-radius: 10px;
+                  }
+
+.category-item:hover{transform: scale(1.1);}
+
+/* အကွက်ကပုံတွေရှိတဲ့အပိုင်း section */
+section{ background-color: #e4deae;
+         height: 400px;
+         width: 100%;
+        }
+
+/* sitemap အတွက် */
+footer {
+        background: #6D4C41;
+        color: white;
+        height: 300px;
+        padding:20px;
+        width:100%;
+        margin-top:auto;
+        text-align: left;
+      }
+
+.aside1{width:30%;
+               float:left;}
+
+.aside2{width:60%;
+               float:right;
+               }
+
+
+/* social icon */
+.social-icon{margin: 0 50px;}
+
+.social-icon a{ margin: 0 7px;
+                color : white;
+                font-size: 24px;
+              }
+
+.social-icon a:hover { color :#21b61c;}
+
+ </style>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a href="greeny.html"> Home </a>
+        <a href="#"> Category </a>
+        <a href="#"> About </a>
+        <a href="#"> Contact </a>
+    </nav>
+
+
+    <header>  
+        <div class="content">
+    
+        <img src="https://i.pinimg.com/736x/fa/76/47/fa7647a681b4aa9ac3b0ef5385d25c26.jpg" style="width: 100px; height:100px; border-radius:50%; border:3px solid green; margin-left: 250px; margin-top:20px;">
+        
+        <p style="font-size:2em;">Welcome to Greeny <br>
+        Growing the Future of Agriculture<br>
+        Organic Farming Made Simple
+    </p>
+        </div>
+        <img src="https://i.pinimg.com/236x/ff/99/79/ff99799fa2d556b96247a1faeacde7d9.jpg" style="width: 300px; height: 320px; float:right; margin-top:40px; margin-left:30px; margin-right:30px;">
+        <div class="gridphoto">
+        <img src="https://i.pinimg.com/236x/ed/a3/3d/eda33d766fe4fedc1aedc76f592d66f8.jpg" style="width: 150px; height: 150px;margin-top:40px; padding-bottom: 20px;">
+        <img src="https://i.pinimg.com/236x/13/b7/fd/13b7fd01d13b7d28ed87caae15483c74.jpg"style="width: 150px; height: 150px;">
+        </div>
+    </header>
+    
+   
+
+    <section class="category">
+        <p style=" text-align: center; background-color: #a4c027; margin-left:450px; margin-right:450px; border-radius: 50px;"> စိုက်ပျိုးရေးနည်းစနစ်များကိုအောက်တွင်ဖတ်ရူနိုင်ပါသည်</p>
+
+        <div class="category-item">
+        <a href="စပါး.html">
+        <img src="https://i.pinimg.com/236x/28/38/d8/2838d8651e0129b44052b94fe9b01770.jpg">
+        </a>
+        <p> စပါးစိုက်ပျိုးခြင်း</p>
+        </div>
+
+        <div class="category-item">
+        <a href="မတ်ပဲ.html">
+        <img src="https://greenwaymyanmar.com/uploads/post_covers/213ff0ae276bf9938a2160c6396572a6.PNG">
+        </a>
+        <p>မတ်ပဲစိုက်ပျိုးခြင်း</p>
+        </div>
+
+        <div class="category-item">
+        <a href="နေကြာ.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSIwDOuuTxBYWCRpAgfcEkaF1DT1vF9gFF7Q&s">
+        </a>
+        <p> နေကြာစိုက်ပျိုးခြင်း</p>
+        </div>
+
+        <div class="category-item">
+        <a href="ဂေါ်ဖီ.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQalSAdH5Qbr1VXKJ-EMhCj8KmsUrCoWLHErk5KiD2VbQ17-tEzmL2Rl_SFcsfG10NNAdo&usqp=CAU">
+        </a>
+        <p> ဂေါ်ဖီစိုက်ပျိုးခြင်း</p>
+        </div>
+
+        <div class="category-item">
+        <a href="ဂန္ဓမာ.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOG1FkB4D9A5I35uzwLaIHmUqfAEI4EI5RVQ&s">
+        </a>
+        <p> ဂန္ဓမာပန်းစိုက်ပျိုးခြင်း</p>
+    </section>
+
+    <footer>
+        <div class="aside1">
+        <p style="margin-left:20px;">
+            <a  style="color:white;" href="စပါး.html"> စပါးစိုက်ပျိုးခြင်း </a> <br>
+            <a style="color:white;" href="မတ်ပဲ.html"> မတ်ပဲစိုက်ပျိုးခြင်း </a> <br>
+            <a style="color:white;" href="နေကြာ.html"> နေကြာစိုက်ပျိုးခြင်း </a> <br>
+            <a style="color:white;" href="ဂေါ်ဖီ.html"> ဂေါ်ဖီစိုက်ပျိုးခြင်း </a> <br>
+            <a style="color:white;"  href="ဂန္ဓမာ.html"> ဂန္ဓမာပန်းစိုက်ပျိုးခြင်း </a> <br>
+        </p>
+        
+        <p style="margin-left:20px;">
+        This website is just school project. <br>
+        </p>
+        </div>
+        
+        <div class="aside2">
+        <img src="https://i.pinimg.com/736x/fa/76/47/fa7647a681b4aa9ac3b0ef5385d25c26.jpg" style="width:100px; height:100px;border-radius: 50%; border:2px solid green; margin-left:100px; margin-top:20px;">
+        <p>
+        &copy; 2025 Greeny Agriculture. All rights reserved.
+        </p>
+        
+        <div class="social-icon">
+        <a href="https://www.facebook.com/Yourpage" target="_blank">
+        <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="https://www.X.com/Yourpage" target="_blank">
+        <i class="fa-brands fa-x"></i>
+        </a>
+         
+        <a href="https://www.instagram.com/Yourpage" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="mailto:your@email.com">
+        <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <a href="tel: +123456789">
+        <i class="fa-solid fa-phone"></i>
+        </a>
+        </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>

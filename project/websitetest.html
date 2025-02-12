@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food & Drink</title>
+    
+    <style>
+
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f8f8f8;
+}
+
+.navbar {
+  position: fixed;  /* Sticks to the top */
+  top: 0px;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.3); /* Transparent white */
+  backdrop-filter: blur(10px); /* Adds a blur effect */
+  padding: 30px 30px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(31, 27, 27);
+  font-size: 18px;
+  margin: 0 15px;
+  transition: color 0.3s;
+  
+}
+
+.navbar a:hover {
+  color: rgb(248, 248, 248);
+}
+
+header {
+    background-color: #ff6600;
+    color: white;
+    padding: 80px;
+    padding-bottom: 100px;
+    height: 200px;  
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+}
+
+
+
+#menu {
+    padding: 20px;
+}
+
+
+
+.menu-item {
+    display: inline-block;
+    margin:20px;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px 0px #ccc;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-item:hover{transform: scale(1.1);}
+
+.menu-item img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.section{
+    background-color: bisque;
+    height: 200px;
+    padding: 30px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    height: 50px;
+    padding: 10px;
+    margin-top:30px;
+}
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#"> Home </a>
+        <a href="#"> Menu </a>
+        <a href="#"> About </a>
+        <a href="#"> Contact </a>
+    </nav>
+
+    <header>
+        <img src="https://i.pinimg.com/236x/16/e7/06/16e706fd19cc71187b511e78e52d27a7.jpg" alt="Food & Drink Logo">
+        <h1>Welcome to Food & Drink</h1>
+        
+    </header>
+
+    
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-item">
+            <a href="#">
+            <img src="https://i.pinimg.com/236x/50/f1/7c/50f17c380525acf16c5ad8df185b1554.jpg" alt="Coffee">
+            </a>
+            <p>Coffee - $3.50</p>     
+        </div>
+
+        <div class="menu-item">
+            <a href="#">
+            <img src="https://i.pinimg.com/236x/22/29/0d/22290dcfd246cc18d795fe19750e6e68.jpg" alt="Burger">
+            </a>
+            <p>Burger - $7.00</p>
+        </div>
+
+        <div class="menu-item">
+            <a href="#">
+            <img src="https://i.pinimg.com/236x/34/f4/8f/34f48f5c56c938642b80b0555e5adf82.jpg" alt="Pizza">
+            </a>
+            <p>Pizza - $9.00</p>
+        </div>
+
+        <div class="menu-item">
+            <a href="#">
+            <img src="https://i.pinimg.com/236x/a7/bf/68/a7bf68a8976eb5a1f4294945de840850.jpg" alt="Juice">
+            </a>
+            <p>Fresh Juice - $4.50</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Contact Us</h2>
+        <p>Email: contact@foodanddrink.com</p>
+        <p>Phone: +123 456 7890</p>
+        <p>Address: 123 Food Street, Flavor Town</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Food & Drink. All rights reserved.</p>
+    </footer>
+
+    
+</body>
+</html>

@@ -4,53 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>နေကြာစိုက်ပျိုးနည်း</title>
+
+    <!-- social icons -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
     <style>
-        header{
-            background-image: url(https://www.mdn.gov.mm/sites/default/files/articles/122046276_3381634881929375_6073599981557588050_o.jpg);
-            background-size: cover;
-            width:auto;
-            height: 400px;
-            text-align: center;
-            color: white;
-        }
-        aside{  
-            float: left;
-            width: 25%;
-            margin-top:60px;
-            margin-left: 20px;
+
+.navbar {
+          position: fixed;  /* Sticks to the top */
+          top: 0px;
+          width: 100%;
+          height:15px;
+          background: #8D6E63;
+          backdrop-filter: blur(10px); /* Adds a blur effect */
+          padding: 30px 30px;
+          display: flex;
         }
 
-        
-        content{ width: 50%;
-                 height: auto;
-                 margin-top: 30px;
-                 margin-left:50px;
-                 margin-right:50px;
-                 float:right;
-                } 
 
-        body{
-            background: radial-gradient(#628B35,#E2DBD0);
+
+.navbar a {
+             text-decoration: none;
+             color: white;
+             font-size: 18px;
+             margin:0 15px;
+             transition: color 0.3s;
+          }
+
+.navbar a:hover{color: #FFEB3B;}
+
+       
+header{ width:100%;
+        height: 210px;
+        background-color: #DAB785;
+        margin-top:80px;
+      }
+
+header img{ width:310px;
+            height:200px;
+            float:left;
+            margin-left:20px;
+            margin-bottom: 20px;
+            border-radius: 30px;
+          }
+            
+section{ margin-left: 20px;
+         margin-right: 20px;
+       }
+
+body{ background-color: #F5F5DC;
+      overflow-x:hidden;
+    }
+   
+/* sitemap အတွက် */
+footer {
+         background: #6D4C41;
+         color: white;
+         height: 300px;
+         padding:20px;
+         width:100%;
+         margin-top:auto;
         }
-    </style>
+
+.aside1{width:30%;
+        float:left;}
+
+.aside2{width:60%;
+        float:right;}
+
+/* social icon */
+.social-icon{margin: 0 50px;}
+
+.social-icon a{ margin: 0 7px;
+                color : white;
+                font-size: 24px;
+              }
+
+.social-icon a:hover { color :#21b61c;}
+
+</style>
 </head>
+
 <body>
-    <header>
-        <img src="https://i.pinimg.com/236x/4a/85/ae/4a85ae4eae5f3bd3e5e4056ddd1b41f9.jpg" style="border:5px solid black; border-radius: 50%; margin-top: 50px;" height="150px" width="150px">  
-        <p style="font-size:2em;"> Thwin's Agriculture</p>
+    <nav class="navbar">
+        <a href="greeny.html"> Home </a>
+        <a href="#"> Category </a>
+        <a href="#"> About </a>
+        <a href="#"> Contact </a>
+    </nav>
+   
+       <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmFIPnTQrgqUhk6zdbMDus1Iu5NV_cmvRPfg&s">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_lha61VoaEtx1OxVEjxCx0kjH4EK1l1DGwQ&s">  
+        <img src="https://greenway.sgp1.digitaloceanspaces.com/post_covers/67956e1b802ac49cec0561ac01a95edc.jpeg" >
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ac_UIgK3K20eOzwt69NBqcFrHKXpmd4Idg&s" >
        </header>
-    <aside>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmFIPnTQrgqUhk6zdbMDus1Iu5NV_cmvRPfg&s" width="500px" height="370px" style="border-radius: 20%;">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_lha61VoaEtx1OxVEjxCx0kjH4EK1l1DGwQ&s" width="500px" height="370px" style="border-radius: 20%;"> 
-        <img src="https://greenway.sgp1.digitaloceanspaces.com/post_covers/67956e1b802ac49cec0561ac01a95edc.jpeg"  width="500px" height="370px" style="border-radius: 20%;">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4O5bjzKd__6lS1tvRp3_OOkMEM9tgkaMFiQ&s" width="500px" height="370px" style="border-radius: 20%;">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ac_UIgK3K20eOzwt69NBqcFrHKXpmd4Idg&s"  width="500px" height="370px" style="border-radius: 20%;">
-    </aside>
-<content>
-<h1>နေကြာစိုက်ပျိုးနည်း</h1>
-🔸နေကြာကို သီးသန့်ဖြစ်စေ၊ သီးညှပ်ဖြစ်စေ စိုက်နိုင်သည်။ လယ်မြေတွင် စပါးရိတ်သိမ်းအပြီးဖြစ်စေ၊ ယာမြေတွင် မိုးသီးနှံရိတ်သိမ်းအပြီးဖြစ်စေ၊ ကိုင်းကျွန်းမြေများတွင်ဖြစ်စေ စိုက်ပျိုးနိုင်ပါသည်။
+
+<section>
+<h1 style="text-align:center">နေကြာစိုက်ပျိုးနည်း</h1>
+ နေကြာကို သီးသန့်ဖြစ်စေ၊ သီးညှပ်ဖြစ်စေ စိုက်နိုင်သည်။ လယ်မြေတွင် စပါးရိတ်သိမ်းအပြီးဖြစ်စေ၊ ယာမြေတွင် မိုးသီးနှံရိတ်သိမ်းအပြီးဖြစ်စေ၊ ကိုင်းကျွန်းမြေများတွင်ဖြစ်စေ စိုက်ပျိုးနိုင်ပါသည်။
 <br>
-🔸စိုက်ပျိုးသင့်သော သုတေသနပြုထုတ်ဝေထားသည့် မျိုးနှစ်မျိုးကို ဖေါ်ပြလိုက်ပါသည်။ <br>
+ စိုက်ပျိုးသင့်သော သုတေသနပြုထုတ်ဝေထားသည့် မျိုးနှစ်မျိုးကို ဖေါ်ပြလိုက်ပါသည်။ <br>
 
  (က) ရေဆင်းစပ်မျိုး - ၁ သက်တမ်းရက် ၈၀ မှ ၈၅ ရက်ရှိသောမျိူးဖြစ်သည်။ အပင်ပေါက်ရာခိုင်နှုန်းမြင့်မားပြီး အပင်သန်စွမ်းကောင်းမွန်သည်။ အပင်အမြင့်မှာ (၄ - ၄. ၅) ပေရှိပြီး ယိုင်လဲမှုဒဏ်ကို ခံနိုင်ရည်ရှိသည်။ နေကြာတွင်ကျရောက်တတ်သော နေကြာရွက်ခြောက်ရောဂါဒဏ်ကို အသင့်အတင့်ခံနိုင်ရည်ရှိသည်။ အပွင့်အရွယ်အစားကြီးမား၍ အချင်း (၅ - ၉) လက်မရှိသည်။ တစ်ပွင့်ပါအောင်စေ့ ၅၀၀ မှ ၉၀၀ ရှိသည်။ အစေ့အရွယ်အစားကြီးမား၍ အစေ့ ၁၀၀၀ အလေးချိန်(၄၅ မှ ၅၀) ဂရမ် ရှိသည်။ ဆီပါဝင်မှုများ၍(၄၈- ၅၁) ရာခိုင်နှုန်းပါဝင်သည်။ ပျားဖြင့်သော် လည်းကောင်း၊ လူဖြင့်သော်လည်းကောင်း၊ ဝတ်မှုန်ကူးပေးရန် မလိုအပ်ဘဲ တစ်ဧကအထွက် ၅၅ တင်း မှ တင်း ၆၀ ထွက်နိုင်သောမျိုးဖြစ်ကြောင်း သိရပါသည်။
  <br>
@@ -83,7 +139,54 @@
 
 ရိတ်သိမ်းခြင်း<br>
  ရိတ်သိမ်းနိုင်သည့်အချိန်မှာ နေကြာပန်းပွင့်များ၏ ကျောဘက်အရောင်သည် အဝါရောင်သို့ပြောင်းချိန် ဖြစ်သည်။ ရိတ်သိမ်းပြီး နေကြာပန်းပွင့်များကို နေပူတွင် (၂ - ၃)ရက်ကြာ နေလှန်းရန်လိုပါသည်။ ပန်းပွင့်များ ခြောက်သွေ့ပါက တုတ်ဖြင့်ရိုက်၍သော် လည်းကောင်း၊ စက်ဖြင့်သော်လည်းကောင်း၊ နေကြာစေ့များရရှိအောင် ခြွေပေးရန် ဖြစ်ပါသည်။
+ <br>
 
-    </content>
+ Crd Wisarra
+</section>
+<footer>
+    <div class="aside1">
+    <p style="margin-left: 20px;">
+        <a  style="color:white;" href="စပါး.html"> စပါးစိုက်ပျိုးခြင်း </a> <br>
+        <a style="color:white;" href="မတ်ပဲ.html"> မတ်ပဲစိုက်ပျိုးခြင်း </a> <br>
+        <a style="color:white;" href="နေကြာ.html"> နေကြာစိုက်ပျိုးခြင်း </a> <br>
+        <a style="color:white;" href="ဂေါ်ဖီ.html"> ဂေါ်ဖီစိုက်ပျိုးခြင်း </a> <br>
+        <a style="color:white;"  href="ဂန္ဓမာ.html"> ဂန္ဓမာပန်းစိုက်ပျိုးခြင်း </a> <br>
+    </p>
+    
+    <p style="margin-left: 20px;">
+    This website is just school project. <br>
+    </p>
+    </div>
+    
+    <div class="aside2">
+    <img src="https://i.pinimg.com/736x/fa/76/47/fa7647a681b4aa9ac3b0ef5385d25c26.jpg" style="width:100px; height:100px;border-radius: 50%; border:2px solid green; margin-left:100px; margin-top:20px;">
+    <p>
+    &copy; 2025 Greeny Agriculture. All rights reserved.
+    </p>
+
+    <div class="social-icon">
+        <a href="https://www.facebook.com/Yourpage" target="_blank">
+        <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="https://www.X.com/Yourpage" target="_blank">
+        <i class="fa-brands fa-x"></i>
+        </a>
+         
+        <a href="https://www.instagram.com/Yourpage" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+        </a>
+
+        <a href="mailto:your@email.com">
+        <i class="fa-solid fa-envelope"></i>
+        </a>
+
+        <a href="tel: +123456789">
+        <i class="fa-solid fa-phone"></i>
+        </a>
+        </div>
+
+        </div>
+</footer>
 </body>
 </html>

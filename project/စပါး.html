@@ -4,69 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>စပါးစိုက်ပျိုးနည်း</title>
+   
+    <!-- social icons -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
     <style>
-        
-        img{margin-top:20px;
-            margin-left:3px;
-            margin-bottom: 20px;
-            
+ 
+ /* navigation bar */
+.navbar {
+         position: fixed;  /* Sticks to the top */
+         top: 0px;
+         width: 100%;
+         height:15px;
+         background: #8D6E63;
+         backdrop-filter: blur(10px); /* Adds a blur effect */
+         padding: 30px 30px;
+         display: flex;
         }
+
+
+
+.navbar a {
+           text-decoration: none;
+           color: white;
+           font-size: 18px;
+           margin:0 15px;
+           transition: color 0.3s;
+          }
+
+.navbar a:hover{color: #FFEB3B;}
+
        
+ header{ 
+        width:100%;
+        height: 210px;
+        background-color: #DAB785;
+        margin-top:80px;}
 
-        header{
-            background-image: url(https://www.mdn.gov.mm/sites/default/files/articles/122046276_3381634881929375_6073599981557588050_o.jpg);
-            background-size: cover;
-            width:100%;
-            height:400px;
-            text-align: center;
-            color: white;
-        }
-  
-        aside{  
-            float: left;
-            width: 25%;
-            margin-top:50px;
-            margin-left: 20px;
-        }
+header img{
+           width:310px;
+           height:200px;
+           float:left;
+           margin-left:20px;
+           margin-bottom: 20px;
+           border-radius: 30px;
+          }
+            
+section{ margin-left: 20px;
+        margin-right: 20px;
+       }
 
-        
-        content{ width: 50%;
-                 height: auto;
-                 margin-top: 50px;
-                 margin-left:50px;
-                 margin-right:50px;
-                 float:right;
-                } 
+body{ background-color: #F5F5DC;
+      overflow-x:hidden;
+    }
+ 
+/* sitemap အတွက် */
+footer {
+        background: #6D4C41;
+        color: white;
+        height: 300px;
+        padding:20px;
+        width:100%;
+        margin-top:auto;
+       }
 
-        
-        body{
-            background: radial-gradient(#628B35,#E2DBD0);
-        }
-        
-    </style>
+.aside1{width:30%;
+        float:left;}
+
+.aside2{width:60%;
+        float:right;}
+
+
+/* social icon */
+.social-icon{margin: 0 50px;}
+
+.social-icon a{ margin: 0 7px;
+                color : white;
+                font-size: 24px;
+              }
+
+.social-icon a:hover { color :#21b61c;}
+
+</style>
 </head>
+
 <body>
+    <nav class="navbar">
+        <a href="greeny.html"> Home </a>
+        <a href="#"> Category </a>
+        <a href="#"> About </a>
+        <a href="#"> Contact </a>
+    </nav>
+
    <header>
-    <img src="https://i.pinimg.com/236x/4a/85/ae/4a85ae4eae5f3bd3e5e4056ddd1b41f9.jpg" style="border:5px solid black; border-radius: 50%; margin-top: 50px;" height="150px" width="150px">  
-    <p style="font-size:2em;"> Thwin's Agriculture</p>
-   </header>
+    <img src="https://news-eleven.com/sites/news-eleven.com/files/news-images/20220508_113003.jpg" >
+    
+    <img src="https://greenway.sgp1.digitaloceanspaces.com/post_covers/a1687771073e511840a7101226eb8fed.jpg">
+    
+    <img src="https://greenway.sgp1.digitaloceanspaces.com/post_covers/a8dd80144b90a63289c6de8c7a497e86.jpeg">
+   
+    <img src= "https://www.industrialdirectory.com.mm/custom/domain_1/image_files/sitemgr_photo_10010.jpg">
+    </header>
 
-    <aside>
-    <img src="https://news-eleven.com/sites/news-eleven.com/files/news-images/20220508_113003.jpg" width="500px" height="360px" style="border-radius: 20%;">
-    <br>
-    <img src="https://www.foodindustrydirectory.com.mm/media/k2/items/cache/f77d553c52fa954c4cb29f5292f015ef_XL.jpg" width="500px" heigth="365px" style="border-radius: 20%;">
-    <br>
-    <img src="https://greenway.sgp1.digitaloceanspaces.com/post_covers/a1687771073e511840a7101226eb8fed.jpg" width="500px" height="365px" style="border-radius: 20%;">
-    <br>
-    <img src="https://greenway.sgp1.digitaloceanspaces.com/post_covers/a8dd80144b90a63289c6de8c7a497e86.jpeg" width="500px" height="365px" style="border-radius: 20%;">
-    <br>
-    <img src="https://www.moi.gov.mm/iprd/sites/default/files/news-image/2022-11/IMG_20221112_103929.jpg" width="500px" height="365px" style="border-radius: 20%;">
-    <br>
-    <img src= "https://www.industrialdirectory.com.mm/custom/domain_1/image_files/sitemgr_photo_10010.jpg" width="500px" height="365px" style="border-radius: 20%;">
-    </aside>
-
-    <content>
-       <h1> စပါးစိုက်ပျိုးနည်း</h1>
+     <section>
+       <h1 style="text-align: center;"> စပါးစိုက်ပျိုးနည်း</h1>
        <p>စပါးသီးနှံကို မြန်မာနိုင်ငံအနှံ့အပြားတွင် ကျယ်ကျယ်ပြန့်ပြန့်စိုက်ပျိုးကြပါသည်။ ရေရရှိမှုအပေါ် မူတည်၍ စိုက်ပျိုးချိန် နှင့် စိုက်ပျိုးရာဒေသများကွဲပြားကြသော်လည်း စိုက်ပျိုးထုတ်လုပ်မှု အများဆုံး သီးနှံဖြစ်သည်။တစ်နည်းအားဖြင့် မိရိုးဖလာ မျိုးရိုးစဉ်ဆက်စိုက်ပျိုးကြသည်လည်းဖြစ်သည်။ သို့ဖြစ်ရာ စပါးသီးနှံကို စနစ်တကျစိုက်ပျိုး၍ အထွက်နှုန်းကောင်းရရှိနိုင်စေရန် “စပါး အထွက်တိုး စိုက်ပျိုးနည်း” စနစ်များကို ရေးသားတင်ပြလိုက်ပါသည်။
         <br>
         <hr>
@@ -135,9 +177,53 @@
         ရိတ်သိမ်းခြင်း <br>
         စပါးကို မောင်းညိုချိန်(သို့မဟုတ်) ပန်းပွင့်ပြီး ရက် (၃၀) (သို့မဟုတ်) စပါးစေ့ (၇၅ မှ ၈၀) ရာခိုင်နှုန်း ရင့်မှည့်ချိန်တွင်ရိတ်သိမ်းပါ။ ရိတ်သိမ်းချိန်နောက်ကျပါက စပါးစေ့ (၅၀ - ၆၀) ရာခိုင်နှုန်းအထိ လေလွင့်ဆုံးရှုံးနိုင်ပါသည်။ မောင်းညိုချိန်တွင်ရိတ်မှသာ အလေအလွင့်နည်းပြီး ဆန်အရည်အသွေး ကောင်းမည်ဖြစ်ပါသည်။ 
         </p> 
-    </content>
+        <br>
+        Crd Wisarra
+        </section>
     
-    
+        <footer>
+            <div class="aside1">
+            <p style="margin-left: 20px;">
+                <a  style="color:white;" href="စပါး.html"> စပါးစိုက်ပျိုးခြင်း </a> <br>
+                <a style="color:white;" href="မတ်ပဲ.html"> မတ်ပဲစိုက်ပျိုးခြင်း </a> <br>
+                <a style="color:white;" href="နေကြာ.html"> နေကြာစိုက်ပျိုးခြင်း </a> <br>
+                <a style="color:white;" href="ဂေါ်ဖီ.html"> ဂေါ်ဖီစိုက်ပျိုးခြင်း </a> <br>
+                <a style="color:white;"  href="ဂန္ဓမာ.html"> ဂန္ဓမာပန်းစိုက်ပျိုးခြင်း </a> <br>
+            </p>
+            
+            <p style="margin-left: 20px;">
+            This website is just school project. <br>
+            </p>
+            </div>
+            
+            <div class="aside2">
+            <img src="https://i.pinimg.com/736x/fa/76/47/fa7647a681b4aa9ac3b0ef5385d25c26.jpg" style="width:100px; height:100px;border-radius: 50%; border:2px solid green; margin-left:100px; margin-top:20px;">
+            <p>
+            &copy; 2025 Greeny Agriculture. All rights reserved.
+            </p>
+
+            <div class="social-icon">
+                <a href="https://www.facebook.com/Yourpage" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+                </a>
+        
+                <a href="https://www.X.com/Yourpage" target="_blank">
+                <i class="fa-brands fa-x"></i>
+                </a>
+                 
+                <a href="https://www.instagram.com/Yourpage" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+                </a>
+        
+                <a href="mailto:your@email.com">
+                <i class="fa-solid fa-envelope"></i>
+                </a>
+        
+                <a href="tel: +123456789">
+                <i class="fa-solid fa-phone"></i>
+                </a>
+                </div>
+        </footer>
 
 </body>
 </html>
