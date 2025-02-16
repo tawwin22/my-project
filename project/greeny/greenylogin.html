@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greeny</title>
+    <style>
+    body {
+            font-family: Arial, sans-serif;
+            background-image: url(images/cheng-chieh-hsu-yVzU9Nvs2VQ-unsplash.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+    /* login container */
+    .login-container{
+                      background: rgba(255,255,255,0.2);
+                      backdrop-filter: blur(10px);
+                      padding: 30px;
+                      border-radius:8px;
+                      box-shadow: 0px 0px 0px 10px rgba(0,0,0,0,1);
+                      width:300px;
+                      text-align: center;
+                    }
+
+    /* heading */
+    .login-container h1{margin-bottom:20px;}
+
+    /* Input Fields */
+.input-group {
+    margin-bottom: 15px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color:#0c641f ;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button a{color:white;}
+
+button:hover {
+    background-color: #218838;
+}
+
+a{text-decoration: none;}
+
+/* Register Link */
+.register-link {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+    </style>
+</head>
+<body>
+    <div class="login-container">
+    <h1> Login </h1>
+    <form action="www.google.com" method="post">
+
+        <div class="input-group">
+        <label for="username"> Username </label>
+        <input type="text" id="username" name="username" required>
+        </div>
+
+        <div class="input-group">
+        <label for="password"> Password</label>
+        <input type="password" name="pass" id="pass" size="20" />
+        </div>
+        
+        <button type="submit"> <a href="greeny.html"> Login </a> </button>
+        
+        <p class="register-link"> Don't have an account? <a href="#"> Sign up </a> </p>
+    </form>
+    </div>
+    
+</body>
+</html>
